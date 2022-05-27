@@ -1,0 +1,161 @@
+         /* Ipad-ngang(1024-X-768) */
+         @media screen and (max-width: 1024px){
+            #wrapper{
+                width: 100%;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            #wp-header{
+                width: 100%;
+            }
+            #wp-body{
+                width: 100%;
+            }
+            #wp-footer{
+                width: 100%;
+            }
+            #wp-coppy-right{
+                width: 100%;
+            }
+            #header{
+                width: 100%;
+            }
+            .main-menu{
+                width: 100%;
+            }
+            .list-menu{
+                width: 100%;
+            }
+            #side-bar{
+                display: none;
+            }
+            #wrapper-content{
+                width: 100%;
+            }
+            #main-post{
+                width: 100%;
+            }
+            #footer{
+                width: 100%;
+            }
+            .fanpage{
+                display: none;
+            }
+            .main-post-content a img{
+                width:100%;
+                height: auto;
+            }
+
+        }
+     /* Ipad dọc (768 x 1024) */
+     @media screen and (max-width: 768px){
+      
+        #side-bar{
+            display: none;
+        }
+        #wrapper-content{
+            width: 100%;
+        }
+        #main-post{
+            width: 100%;
+        }
+        #footer{
+            width: 100%;
+        }
+        .fanpage{
+            display: none;
+        }
+        }
+          /* Iphone (600 x 800) */
+    @media screen and (max-width: 600px){
+        .main-menu{
+            width: 100%;
+        }
+        ul.list-menu{
+            width: 100%;
+            justify-content: space-evenly;
+        }
+        .search{
+            display: none;
+        }
+        .list-menu li:last-child{
+            display: none;
+        }
+        /* End header */
+        #main-post{
+            width: 100%; 
+            padding: 0px;
+        }
+        #wr-main-post{
+            width:100%;
+            flex-direction: column;
+           
+        }
+        .main-post-content{
+            flex:100%;
+            padding: 0px;
+            margin-bottom: 20px;
+        }
+        .main-post-content a img{
+            width: 100%;
+            height: auto;
+        }
+        .sub-post-content{
+            flex:100%;
+            padding: 0px;
+        }
+        .sub-list-post li p{
+            margin-left: 35px;
+            padding: 0px;
+            text-align: left;
+        }
+        .wp-left-content-event{
+            flex-direction: column;
+        }
+        .wp-left-content-event a img{
+            width: 100%;
+            height: auto;
+        }
+        .wp-left-content-event p{
+            padding: 0px;
+            margin-top: 20px;
+        }
+        .list-left-content-event li{
+            flex-direction: column;
+        }
+        .list-left-content-event li a img{
+            width: 100%;
+            height: auto;
+        }
+        .list-left-content-event li p{
+            margin-top: 10px;
+            padding: 0px;
+        }
+        /* End content */
+        #footer{
+            padding: 10px;
+        }
+        .category{
+            padding: 0px;
+        }
+    }
+    /* Iphone (480 x 640) */
+    @media screen and (max-width: 480px){
+        .main-menu{
+            display: none;
+        }
+        .hot-news{
+            display: none;
+        }
+        #icon-menu{
+            display: block;
+        }
+        #wp-menu-respon{
+            display: block;
+        }
+        }
+
+        /* Smarphone nhỏ */
+    @media screen and (max-width: 320px){
+         
+        }

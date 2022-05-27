@@ -1,0 +1,54 @@
+.float-left{
+    float:left;
+}
+.float-right{
+    float:right;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-justify{
+    text-align: justify;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text-lowercase{
+    text-transform: lowercase;
+}
+.text-capitalize{
+    text-transform: capitalize;
+}
+.font-weight-normal{
+    font-weight: normal;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.font-weight-light{
+    font-weight: lighter;
+}
+.text-italic{
+    font-style: italic ;
+}
+.text-underline{
+    text-decoration: underline;
+}
+.text-line-through{
+    text-decoration: line-through;
+}
+.text-overline{
+    text-decoration: overline;
+}
+.clear-both{
+    clear: both;
+}
+.un-underline{
+    text-decoration: none;
+}
